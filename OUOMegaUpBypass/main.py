@@ -7,7 +7,7 @@ from pythonmonkey import eval
 from requests import get
 
 if __name__ == "__main__":
-    output = bypass(url=input("Enter ouo.io or ouo.press url: "))
+    output = bypass(url=input("https://ouo.io/6dSHkk "))
     print(f"Original: {output[0]}")
     print(f"Bypassed: {output[1]}")
 
